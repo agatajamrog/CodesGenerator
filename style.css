@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+}
+
+body {
+    text-align: center;
+    background-color: rgb(245, 226, 226);
+}
+
+button {
+    margin: 50px 0;
+    font-size: 3rem;
+    padding: 10px 10px;
+    line-height: 3rem;
+    border: 3px solid rgb(32, 149, 153);
+    border-radius: 10px;
+    background-color: transparent;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    transition: 0.2s;
+}
+.clear{
+    font-size: 12px;
+    line-height: 12px;
+    padding: 2px;
+
+}
+button:hover {
+    cursor: pointer;
+    background-color: rgba(253, 251, 253, 0.548);
+}
+
+section {
+    margin: 5px;
+    border: 2px rgb(101, 101, 179) dotted;
+    padding: 10px;
+    font-size: 2rem;
+
+}
+
+h1 {
+    background-color: rgb(143, 207, 226);
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: 20px;
+    line-height: 20px;
+}
